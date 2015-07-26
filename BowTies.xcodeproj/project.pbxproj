@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A76DA371B65070800FC4D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA361B65070800FC4D20 /* AppDelegate.swift */; };
+		5A76DA3A1B65070800FC4D20 /* BowTies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA381B65070800FC4D20 /* BowTies.xcdatamodeld */; };
+		5A76DA3C1B65070800FC4D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA3B1B65070800FC4D20 /* ViewController.swift */; };
+		5A76DA3F1B65070800FC4D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A76DA3D1B65070800FC4D20 /* Main.storyboard */; };
+		5A76DA411B65070800FC4D20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A76DA401B65070800FC4D20 /* Images.xcassets */; };
+		5A76DA441B65070800FC4D20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A76DA421B65070800FC4D20 /* LaunchScreen.xib */; };
+		5A76DA501B65070800FC4D20 /* BowTiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA4F1B65070800FC4D20 /* BowTiesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A76DA4A1B65070800FC4D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A76DA291B65070800FC4D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A76DA301B65070800FC4D20;
+			remoteInfo = BowTies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A76DA311B65070800FC4D20 /* BowTies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowTies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A76DA351B65070800FC4D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A76DA361B65070800FC4D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A76DA391B65070800FC4D20 /* BowTies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BowTies.xcdatamodel; sourceTree = "<group>"; };
+		5A76DA3B1B65070800FC4D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A76DA3E1B65070800FC4D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A76DA401B65070800FC4D20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A76DA431B65070800FC4D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A76DA491B65070800FC4D20 /* BowTiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowTiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A76DA4E1B65070800FC4D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A76DA4F1B65070800FC4D20 /* BowTiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowTiesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A76DA2E1B65070800FC4D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76DA461B65070800FC4D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A76DA281B65070800FC4D20 = {
+			isa = PBXGroup;
+			children = (
+				5A76DA331B65070800FC4D20 /* BowTies */,
+				5A76DA4C1B65070800FC4D20 /* BowTiesTests */,
+				5A76DA321B65070800FC4D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A76DA321B65070800FC4D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A76DA311B65070800FC4D20 /* BowTies.app */,
+				5A76DA491B65070800FC4D20 /* BowTiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A76DA331B65070800FC4D20 /* BowTies */ = {
+			isa = PBXGroup;
+			children = (
+				5A76DA361B65070800FC4D20 /* AppDelegate.swift */,
+				5A76DA3B1B65070800FC4D20 /* ViewController.swift */,
+				5A76DA3D1B65070800FC4D20 /* Main.storyboard */,
+				5A76DA401B65070800FC4D20 /* Images.xcassets */,
+				5A76DA421B65070800FC4D20 /* LaunchScreen.xib */,
+				5A76DA381B65070800FC4D20 /* BowTies.xcdatamodeld */,
+				5A76DA341B65070800FC4D20 /* Supporting Files */,
+			);
+			path = BowTies;
+			sourceTree = "<group>";
+		};
+		5A76DA341B65070800FC4D20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A76DA351B65070800FC4D20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A76DA4C1B65070800FC4D20 /* BowTiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A76DA4F1B65070800FC4D20 /* BowTiesTests.swift */,
+				5A76DA4D1B65070800FC4D20 /* Supporting Files */,
+			);
+			path = BowTiesTests;
+			sourceTree = "<group>";
+		};
+		5A76DA4D1B65070800FC4D20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A76DA4E1B65070800FC4D20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A76DA301B65070800FC4D20 /* BowTies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A76DA531B65070800FC4D20 /* Build configuration list for PBXNativeTarget "BowTies" */;
+			buildPhases = (
+				5A76DA2D1B65070800FC4D20 /* Sources */,
+				5A76DA2E1B65070800FC4D20 /* Frameworks */,
+				5A76DA2F1B65070800FC4D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowTies;
+			productName = BowTies;
+			productReference = 5A76DA311B65070800FC4D20 /* BowTies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A76DA481B65070800FC4D20 /* BowTiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A76DA561B65070800FC4D20 /* Build configuration list for PBXNativeTarget "BowTiesTests" */;
+			buildPhases = (
+				5A76DA451B65070800FC4D20 /* Sources */,
+				5A76DA461B65070800FC4D20 /* Frameworks */,
+				5A76DA471B65070800FC4D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A76DA4B1B65070800FC4D20 /* PBXTargetDependency */,
+			);
+			name = BowTiesTests;
+			productName = BowTiesTests;
+			productReference = 5A76DA491B65070800FC4D20 /* BowTiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A76DA291B65070800FC4D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Guadoo Group";
+				TargetAttributes = {
+					5A76DA301B65070800FC4D20 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5A76DA481B65070800FC4D20 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5A76DA301B65070800FC4D20;
+					};
+				};
+			};
+			buildConfigurationList = 5A76DA2C1B65070800FC4D20 /* Build configuration list for PBXProject "BowTies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A76DA281B65070800FC4D20;
+			productRefGroup = 5A76DA321B65070800FC4D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A76DA301B65070800FC4D20 /* BowTies */,
+				5A76DA481B65070800FC4D20 /* BowTiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A76DA2F1B65070800FC4D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76DA3F1B65070800FC4D20 /* Main.storyboard in Resources */,
+				5A76DA441B65070800FC4D20 /* LaunchScreen.xib in Resources */,
+				5A76DA411B65070800FC4D20 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76DA471B65070800FC4D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A76DA2D1B65070800FC4D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76DA3C1B65070800FC4D20 /* ViewController.swift in Sources */,
+				5A76DA371B65070800FC4D20 /* AppDelegate.swift in Sources */,
+				5A76DA3A1B65070800FC4D20 /* BowTies.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76DA451B65070800FC4D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76DA501B65070800FC4D20 /* BowTiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A76DA4B1B65070800FC4D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A76DA301B65070800FC4D20 /* BowTies */;
+			targetProxy = 5A76DA4A1B65070800FC4D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A76DA3D1B65070800FC4D20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A76DA3E1B65070800FC4D20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A76DA421B65070800FC4D20 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A76DA431B65070800FC4D20 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A76DA511B65070800FC4D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A76DA521B65070800FC4D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A76DA541B65070800FC4D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BowTies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A76DA551B65070800FC4D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BowTies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A76DA571B65070800FC4D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BowTiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowTies.app/BowTies";
+			};
+			name = Debug;
+		};
+		5A76DA581B65070800FC4D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BowTiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowTies.app/BowTies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A76DA2C1B65070800FC4D20 /* Build configuration list for PBXProject "BowTies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76DA511B65070800FC4D20 /* Debug */,
+				5A76DA521B65070800FC4D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A76DA531B65070800FC4D20 /* Build configuration list for PBXNativeTarget "BowTies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76DA541B65070800FC4D20 /* Debug */,
+				5A76DA551B65070800FC4D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A76DA561B65070800FC4D20 /* Build configuration list for PBXNativeTarget "BowTiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76DA571B65070800FC4D20 /* Debug */,
+				5A76DA581B65070800FC4D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A76DA381B65070800FC4D20 /* BowTies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A76DA391B65070800FC4D20 /* BowTies.xcdatamodel */,
+			);
+			currentVersion = 5A76DA391B65070800FC4D20 /* BowTies.xcdatamodel */;
+			path = BowTies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A76DA291B65070800FC4D20 /* Project object */;
+}
