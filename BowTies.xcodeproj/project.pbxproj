@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4070981B665A87001B9AF7 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A4070971B665A87001B9AF7 /* red.png */; };
+		5A40709E1B665E72001B9AF7 /* Bowtie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A40709D1B665E72001B9AF7 /* Bowtie.swift */; };
 		5A76DA371B65070800FC4D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA361B65070800FC4D20 /* AppDelegate.swift */; };
 		5A76DA3A1B65070800FC4D20 /* BowTies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA381B65070800FC4D20 /* BowTies.xcdatamodeld */; };
 		5A76DA3C1B65070800FC4D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA3B1B65070800FC4D20 /* ViewController.swift */; };
@@ -14,6 +16,7 @@
 		5A76DA411B65070800FC4D20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A76DA401B65070800FC4D20 /* Images.xcassets */; };
 		5A76DA441B65070800FC4D20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A76DA421B65070800FC4D20 /* LaunchScreen.xib */; };
 		5A76DA501B65070800FC4D20 /* BowTiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76DA4F1B65070800FC4D20 /* BowTiesTests.swift */; };
+		5A76DA5A1B65120200FC4D20 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A76DA591B65120200FC4D20 /* SampleData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A4070971B665A87001B9AF7 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../../red.png; sourceTree = "<group>"; };
+		5A40709D1B665E72001B9AF7 /* Bowtie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bowtie.swift; sourceTree = "<group>"; };
 		5A76DA311B65070800FC4D20 /* BowTies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowTies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A76DA351B65070800FC4D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A76DA361B65070800FC4D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		5A76DA491B65070800FC4D20 /* BowTiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowTiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A76DA4E1B65070800FC4D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A76DA4F1B65070800FC4D20 /* BowTiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowTiesTests.swift; sourceTree = "<group>"; };
+		5A76DA591B65120200FC4D20 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SampleData.plist; path = ../SampleData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +85,15 @@
 		5A76DA331B65070800FC4D20 /* BowTies */ = {
 			isa = PBXGroup;
 			children = (
+				5A40709D1B665E72001B9AF7 /* Bowtie.swift */,
+				5A4070971B665A87001B9AF7 /* red.png */,
 				5A76DA361B65070800FC4D20 /* AppDelegate.swift */,
 				5A76DA3B1B65070800FC4D20 /* ViewController.swift */,
 				5A76DA3D1B65070800FC4D20 /* Main.storyboard */,
 				5A76DA401B65070800FC4D20 /* Images.xcassets */,
 				5A76DA421B65070800FC4D20 /* LaunchScreen.xib */,
 				5A76DA381B65070800FC4D20 /* BowTies.xcdatamodeld */,
+				5A76DA591B65120200FC4D20 /* SampleData.plist */,
 				5A76DA341B65070800FC4D20 /* Supporting Files */,
 			);
 			path = BowTies;
@@ -197,6 +206,8 @@
 			files = (
 				5A76DA3F1B65070800FC4D20 /* Main.storyboard in Resources */,
 				5A76DA441B65070800FC4D20 /* LaunchScreen.xib in Resources */,
+				5A76DA5A1B65120200FC4D20 /* SampleData.plist in Resources */,
+				5A4070981B665A87001B9AF7 /* red.png in Resources */,
 				5A76DA411B65070800FC4D20 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A76DA3C1B65070800FC4D20 /* ViewController.swift in Sources */,
+				5A40709E1B665E72001B9AF7 /* Bowtie.swift in Sources */,
 				5A76DA371B65070800FC4D20 /* AppDelegate.swift in Sources */,
 				5A76DA3A1B65070800FC4D20 /* BowTies.xcdatamodeld in Sources */,
 			);
@@ -413,6 +425,7 @@
 				5A76DA551B65070800FC4D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A76DA561B65070800FC4D20 /* Build configuration list for PBXNativeTarget "BowTiesTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +434,7 @@
 				5A76DA581B65070800FC4D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
