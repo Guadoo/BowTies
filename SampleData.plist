@@ -25,7 +25,7 @@
 		<key>timesWorn</key>
 		<integer>4</integer>
 		<key>isFavorite</key>
-		<false/>
+		<true/>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -100,7 +100,7 @@
 		<key>timesWorn</key>
 		<integer>4</integer>
 		<key>isFavorite</key>
-		<false/>
+		<true/>
 	</dict>
 	<dict>
 		<key>name</key>

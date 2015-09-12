@@ -14,28 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        /* Save test bow tie */
-//        let entity = NSEntityDescription.entityForName("Bowtie", inManagedObjectContext: managedObjectContext!)
-//        
-//        let bowtie = Bowtie(entity: entity!, insertIntoManagedObjectContext: managedObjectContext)
-//        
-//        bowtie.name = "My bow tie"
-//        bowtie.lastWorn = NSDate()
-//        
-//        managedObjectContext!.save(nil)
-        
-        /* Retrieve test bow tie */
-//        let request = NSFetchRequest(entityName: "Bowtie")
-//        
-//        let ties = managedObjectContext!.executeFetchRequest(request, error: nil) as! [Bowtie]
-//        
-//        let sample = ties[0]
-//        
-//        println("Name: \(sample.name), Worn: \(sample.lastWorn)")
-
+        //实例 viewController 并传送 managedContext 给 viewController
         
         let viewController = self.window!.rootViewController as! ViewController
         
